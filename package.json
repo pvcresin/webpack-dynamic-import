@@ -1,5 +1,5 @@
 {
-  "name": "babel-dynamic-import",
+  "name": "webpack-dynamic-import",
   "version": "1.0.0",
   "main": "index.js",
   "author": "pvcresin <pvcresin0730@gmail.com>",
