@@ -1,12 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  entry: [
-    'core-js/modules/es.array.iterator',
-    path.join(__dirname, 'src/index.js')
-  ],
+  entry: {
+    index: path.join(__dirname, 'src/index.js')
+  },
   output: {
-    filename: 'index.js',
+    filename: '[name].js',
     chunkFilename: '[name].js',
     path: path.resolve(__dirname, './')
   },

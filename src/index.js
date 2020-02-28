@@ -1,3 +1,5 @@
+import 'core-js/modules/es.array.iterator';
+
 console.log('start');
 
 setTimeout(() => {
